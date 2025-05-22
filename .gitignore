@@ -1,0 +1,24 @@
+# Ignora a pasta de dependências
+node_modules/
+
+# Ignora arquivos de log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignora o lockfile do npm se estiver usando yarn (opcional)
+# package-lock.json
+
+# Ignora pastas de cache
+.cache/
+dist/
+build/
+
+# Ignora arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Ignora variáveis de ambiente
+.env
+.env.local
+.env.*.local
