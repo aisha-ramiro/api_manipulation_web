@@ -6,7 +6,7 @@ app.use(express.json());
 
 app.get('/saudacao', (req, res) => {
     const data = {
-        mensagem: "Bem-vindo a API disponibilizada pelo 3º Semestre ADS Noite"
+        mensagem: "API disponibilizada pelos alunos do 3º Semestre ADS Noite"
     }
     res.json(data);
 });
